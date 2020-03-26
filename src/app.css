@@ -1,0 +1,39 @@
+.list-container{
+    margin-top: auto;
+}
+.list-item{
+    padding: 1.5rem;
+}
+.card-item {
+    padding: 0.5rem;
+}
+
+.overview-card {
+    background-color: rgb(224, 222, 222);
+    padding: 1.5rem;
+}
+
+.image-card{
+ margin-top: 0.75rem;
+ width: 100%;
+}
+
+.overview{
+    margin-top: 1.5rem;
+}
+
+.detail-container {
+    display: grid;
+}
+
+@media screen and (min-width: 720px) {
+    .detail-container {
+        display: grid;
+        grid-gap: 0.5%;
+        grid-template-columns: repeat(2, 50%);
+    }
+    .image-card{
+        margin-top: 0.75rem;
+        width: 95%;
+       }
+  }
